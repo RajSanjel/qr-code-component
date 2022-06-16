@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Overpass:wght@300;600&display=swap');
+
+:root {
+    --light-gray: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: outfit;
+}
+
+html {
+    min-height: 100vh;
+    min-width: 100vw;
+    display: grid;
+    place-items: center;
+    background-color: #d5e1ef;
+}
+
+.qrContainer img {
+    width: 280px;
+    border-radius: 10px;
+}
+
+.qrContainer {
+    width: 280px;
+    height: 450px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 20px;
+    text-align: center;    
+}
+
+h2 {
+    font-weight: 700;
+    color: var(--dark-blue);
+    margin-top: 20px;
+}
+
+p {
+    color: var(--grayish-blue);
+    font-size: 15px;
+    margin-top: 20px;
+}
